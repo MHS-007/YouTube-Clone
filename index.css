@@ -1,0 +1,424 @@
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 1021px;
+    margin-left: -22px;
+    position: absolute;
+    top: 0px;
+}
+
+.menu{
+    height: 30px;
+    width: 90px;
+    margin: 10px 0px 5px 0px;  /*Top-Right-Bottom-Left*/
+    position: relative;
+    right: -5px;
+}
+
+.YT-icon{
+    height: 40px;
+    width: 45px;
+    position: relative;
+    bottom: 1px;
+    right: 15px;
+}
+
+.name{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: 12px;
+    right: 15px;
+    font-size: 22px;
+}
+
+input{
+    position: relative;
+    bottom: 15px;
+    left: 80px;
+    width: 300px;
+    padding: 8px;
+    outline: none;
+}
+
+.search{
+    height: 25px;
+    width: 50px;
+    position: relative;
+    left: 76px;
+    bottom: 2px;
+    background-color: aliceblue;
+    padding: 4px;
+    border: 1px solid rgb(92, 92, 92);
+    border-left: none;
+}
+
+.voice-search{
+    height: 30px;
+    width: 35px;
+    position: relative;
+    left: 80px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.upload, .apps, .notis{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 200px;
+    bottom: 5px;
+    margin-right:12px;
+}
+
+.dp{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 200px;
+    bottom: 5px;
+    border-radius: 30px;
+}
+
+.navigation-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 795px;
+    width: 100px;
+    margin-top: 45px;
+    margin-left: -12px;
+}
+
+div.navigation-bar img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 130px;
+    right: 10px;
+    margin-bottom: 10px;
+}
+
+div.navigation-bar span{
+    font-size: 10px;
+    position: relative;
+    bottom:155px;
+    right: 10px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    padding-top: 40px;
+}
+
+div.video-grid img{
+    height: 175px;
+    width: 275px;
+}
+
+#cdp-1{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-1 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-1{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-1{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 30px;
+    bottom: 21px;
+}
+
+#cdp-2{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-2 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-2{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-2{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 34px;
+    bottom: 21px;
+}
+
+#cdp-3{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-3 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-3{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-3{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 27px;
+    bottom: 21px;
+}
+
+#cdp-4{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-4 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-4{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-4{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 41px;
+    bottom: 21px;
+}
+
+#cdp-5{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-5 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-5{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-5{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: -20px;
+    bottom: 21px;
+}
+
+#cdp-6{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-6 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-6{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-6{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: -20px;
+    bottom: 21px;
+}
+
+#cdp-7{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-7 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-7{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-7{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 32px;
+    bottom: 21px;
+}
+
+#cdp-8{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-8 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-8{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-8{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 40px;
+    bottom: 21px;
+}
+
+#cdp-9{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+div.video-9 span.title{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+.cname-9{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    color: gray;
+}
+
+.cdetail-9{
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    right: 1px;
+    bottom: 21px;
+}
